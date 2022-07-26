@@ -2,8 +2,8 @@
 
 const Footer = () => {
   return (
-    <Footer>
-      <div>
+    <footer>
+      <>
         <div>
           <h5>Support</h5>
           <p>Help center</p>
@@ -37,8 +37,8 @@ const Footer = () => {
           <p>Investors</p>
           <p>Gift cards</p>
         </div>
-      </div>
-    </Footer>
+      </>
+    </footer>
   )
 }
 
