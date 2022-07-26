@@ -7,6 +7,9 @@ import TripsHeader from './component/TripsHeader';
 import Footer from './component/Footer';
 import Weekend from './component/Weekend';
 import WeekendData from './component/WeekendData';
+import GroupData from './component/GroupData';
+import Groups from './component/Groups';
+import GroupHeader from './component/GroupHeader';
 
 function App() {
   const trips = TripsData.map(data => {
@@ -26,12 +29,23 @@ function App() {
       />
     )
   })
+
+  const groups = GroupData.map(group => {
+    return (
+      <Groups
+        key={group.id}
+        {...group}
+      />
+    )
+  })
   return (
     <>
       <Header />
       <Main />
       <TripsHeader />
       {trips}
+      <GroupHeader />
+      {groups}
       {weekend}
       <Footer />
     </>

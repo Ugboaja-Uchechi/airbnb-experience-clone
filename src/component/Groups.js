@@ -3,7 +3,7 @@ import React from "react"
 import { FaStar} from "react-icons/fa";
 // import TripsData from "./TripsData"
 
-const Trip = (props) => {
+const Groups = (props) => {
   return (
     <>
         <div>
@@ -24,4 +24,4 @@ const Trip = (props) => {
   )
 }
 
-export default Trip;
+export default Groups;

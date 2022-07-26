@@ -5,7 +5,6 @@ import { FaStar} from "react-icons/fa";
 const Weekend = (props) => {
   return (
     <>
-    <section>
       <div>
           <img src={props.img} alt={props.alt} />
 
@@ -20,7 +19,6 @@ const Weekend = (props) => {
               <span>From ${props.amount}</span> / person
           </p>
       </div>
-    </section>
   </>
   )
 }
