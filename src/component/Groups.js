@@ -7,7 +7,7 @@ const Groups = (props) => {
   return (
     <>
         <div>
-            <img src={props.img} alt={props.alt} />
+            <img src={props.img} alt={props.alt} className="images" />
 
           <div>
           <FaStar />

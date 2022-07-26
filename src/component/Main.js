@@ -9,13 +9,13 @@ const Main = () => {
       <h1>New this week</h1>
       <div>
         <div>
-          <img src={Swimming} alt="A lady swimming" />
+          <img src={Swimming} alt="A lady swimming" className="images" />
         </div>
         <div>
-          <img src={Football} alt="Kids practising football" />
+          <img src={Football} alt="Kids practising football" className="images" />
         </div>
         <div>
-          <img src={Family} alt="Kids practising football" />
+          <img src={Family} alt="Kids practising football" className="images" />
         </div>
       </div>
     </main>
