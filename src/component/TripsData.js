@@ -1,7 +1,14 @@
+import Man from "./Images/man.jpg"
+import Pyramid from "./Images/pyramid.jpg"
+import Woman from "./Images/woman.jpg"
+import Boat from "./Images/boat.jpg"
+import Beach from "./Images/beach.jpg"
+import Nature from "./Images/nature.jpg"
+
 const TripsData = [
   {
     id: 1,
-    img: "man.jpg",
+    img: Man,
     title: "A trip to the mountains",
     stats: {
       rating: 4.5,
@@ -13,7 +20,7 @@ const TripsData = [
   },
   {
     id: 2,
-    img: "pyramid.jpg",
+    img: Pyramid,
     title: "Come see the pyramids",
     stats: {
       rating: 4.9,
@@ -25,7 +32,7 @@ const TripsData = [
   },
   {
     id: 3,
-    img: "woman.jpg",
+    img: Woman,
     title: "Come see the greenlands",
     stats: {
       rating: 5,
@@ -37,7 +44,7 @@ const TripsData = [
   },
   {
     id: 4,
-    img: "boat.jpg",
+    img: Boat,
     title: "Take a boat cruise with us",
     stats: {
       rating: 4.8,
@@ -49,7 +56,7 @@ const TripsData = [
   },
   {
     id: 5,
-    img: "beach.jpg",
+    img: Beach,
     title: "Take a vacation",
     stats: {
       rating: 4.3,
@@ -61,7 +68,7 @@ const TripsData = [
   },
   {
     id: 6,
-    img: "nature.jpg",
+    img: Nature,
     title: "Take a hike through nature",
     stats: {
       rating: 4.9,
