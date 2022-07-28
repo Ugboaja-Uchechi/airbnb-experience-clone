@@ -3,13 +3,11 @@ import Header from './component/Header';
 import Main from './component/Main';
 import Trip from './component/Trips';
 import TripsData from './component/TripsData';
-import TripsHeader from './component/TripsHeader';
 import Footer from './component/Footer';
 import Weekend from './component/Weekend';
 import WeekendData from './component/WeekendData';
 import GroupData from './component/GroupData';
 import Groups from './component/Groups';
-import GroupHeader from './component/GroupHeader';
 
 function App() {
   const trips = TripsData.map(data => {
@@ -42,11 +40,24 @@ function App() {
     <>
       <Header />
       <Main />
-      <TripsHeader />
-      {trips}
-      <GroupHeader />
-      {groups}
-      {weekend}
+      <section>
+        <h2 className="trip-header">Plan a trip with help from local Hosts around the world</h2>
+        <div className="grid-container">
+          {trips}
+        </div>
+      </section>
+      <section>
+        <h2 className='trip-header'>Great for groups</h2>
+        <div className="grid-container">
+          {groups}
+        </div>
+      </section>
+      <section>
+        <h2 className='trip-header'>Make plans this weekend</h2>
+        <div className="grid-container">
+          {weekend}
+        </div>
+      </section>
       <Footer />
     </>
   );
