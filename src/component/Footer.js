@@ -15,7 +15,8 @@ const Footer = () => {
           <p>Report a neighborhood concern</p>
         </div>
         <div>
-          <h5>Airbnb.org: disaster relief housing</h5>
+          <h5>Community</h5>
+          <p>Airbnb.org: disaster relief housing</p>
           <p>Support Afghan refugees</p>
           <p>Combating discrimination</p>
         </div>
@@ -32,7 +33,6 @@ const Footer = () => {
           <p>Newsroom</p>
           <p>Learn about new features</p>
           <p>Letter from our founders</p>
-          <p>Supporting people with disabilities</p>
           <p>Careers</p>
           <p>Investors</p>
           <p>Gift cards</p>

@@ -108,7 +108,7 @@ header {
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: clamp(2em, 0.75rem + 0.5vw, 2.2em);
   font-weight: 800;
   color: var(--headerTextColor);
   margin-block: 1.8rem;
@@ -151,7 +151,7 @@ section {
 }
 
 .trip-header {
-  font-size: 1.5rem;
+  font-size: clamp(1.5em, 0.75rem + 0.5vw, 1.7em);
   font-weight: 600;
   color: var(--headerTextColor);
   margin-block: 2rem;
@@ -161,7 +161,6 @@ section {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
-  overflow-x: auto;
 }
 
 .card {
@@ -178,7 +177,7 @@ section {
 }
 
 .span {
-  font-size: 1rem;
+  font-size: clamp(1.2em, 0.75rem + 0.5vw, 1.4em);
   font-weight: 400;
   color: var(--headerTextColor);
 }
@@ -193,7 +192,7 @@ section {
 }
 
 .paragraph {
-  font-size: 1.1rem;
+  font-size: clamp(1.1em, 0.75rem + 0.5vw, 1.3em);
   color: var(--headerTextColor);
 }
 
@@ -208,3 +207,34 @@ section {
 }
 
 /* Main Styling End */
+
+/* Footer Styling */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block-start: 5rem;
+  background-color: #f7f7f7;
+  padding-block-end: 5rem;
+}
+
+h5 {
+  font-size: clamp(1em, 0.75rem + 0.5vw, 1.1em);
+  color: var(--headerTextColor);
+  margin-block-start: 2rem;
+  margin-block-end: 0.6rem;
+}
+
+footer p {
+  font-size: clamp(0.9em, 0.75rem + 0.5vw, 1em);
+  color: var(--headerTextColor);
+  margin-block-end: 0.7rem;
+}
+
+footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* Footer Styling End */
