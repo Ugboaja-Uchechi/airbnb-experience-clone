@@ -16,7 +16,7 @@ const Header = () => {
           </div>
           <div>
             <span className="header-span">Become a Host</span>
-            <FaGlobe className="icons globe" />
+            <FaGlobe className="icons" />
             <div className="icon-container">
               <IoIosMenu className="icons menu" />
               <FaUserCircle className="icons user" />

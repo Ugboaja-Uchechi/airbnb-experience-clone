@@ -66,19 +66,13 @@ header {
   padding-inline-end: 1rem;
 }
 
-.header-span:hover,
-.globe:hover {
+.header-span:hover {
   cursor: pointer;
   background-color: #f7f7f7;
   padding-block: 12px;
   padding-inline: 12px;
 
   border-radius: 50px;
-}
-
-.globe:hover {
-  padding-block: 20px;
-  padding-inline: 20px;
 }
 
 .icon-container {
